@@ -1,0 +1,21 @@
+{
+  "name": "voidr.saucedemo-test.playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "ui:mode": "npx playwright test --ui",
+    "chromium": " npx playwright test --project=chromium",
+    "debug": "npx playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": ["test", "ui", "chrome",
+  "playwright", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3"
+  }
+}
