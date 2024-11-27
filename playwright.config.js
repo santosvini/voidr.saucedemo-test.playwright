@@ -27,7 +27,7 @@ module.exports = defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://www.saucedemo.com/',
-    headless: false,
+    headless: true,
     viewport: {
       width: 1280,
       height: 720,
